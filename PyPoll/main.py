@@ -3,7 +3,7 @@ import csv
 import math
 
 csvpath = os.path.join(".", "Resources", "election_data.csv")
-txtpath = os.path.join(".", "Resources", "election_data_report.txt")
+txtpath = os.path.join(".", "election_data_report.txt")
 
 
 def print_twice(*args, **kwargs):

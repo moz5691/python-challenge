@@ -3,7 +3,7 @@ import csv
 import math
 
 csvpath = os.path.join(".", "Resources", "budget_data.csv")
-txtpath = os.path.join(".", "Resources", "budget_data_report.txt")
+txtpath = os.path.join(".", "budget_data_report.txt")
 
 prev_month = 0
 date = []
