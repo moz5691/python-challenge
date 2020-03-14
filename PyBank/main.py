@@ -48,13 +48,13 @@ with open(csvpath, newline="") as csvfile:
         profits_losses.append(int(row[1]))
         changes.append(row[2])
 
-    print_twice('Financial Analysis')
-    print_twice('====================================')
-    print_twice(f'Total months: {len(date)}')
-    print_twice(f'Total {sum(profits_losses)}')
-    print_twice('Average change ${:.2f}'.format(
-        average(changes), 0.2))
-    print_twice(
-        f'Greatest Increase in Profits: {greatest_inc_or_dec_profit(changes, date, "inc")}')
-    print_twice(
-        f'Greatest Decrese in Profits : {greatest_inc_or_dec_profit(changes, date, "dec")}')
+print_twice('Financial Analysis')
+print_twice('====================================')
+print_twice(f'Total months: {len(date)}')
+print_twice(f'Total {sum(profits_losses)}')
+print_twice('Average change ${:.2f}'.format(
+    average(changes), 0.2))
+print_twice(
+    f'Greatest Increase in Profits: {greatest_inc_or_dec_profit(changes, date, "inc")}')
+print_twice(
+    f'Greatest Decrese in Profits : {greatest_inc_or_dec_profit(changes, date, "dec")}')
