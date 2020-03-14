@@ -7,6 +7,8 @@ txtpath = os.path.join(".", "Resources", "election_data_report.txt")
 
 
 def print_twice(*args, **kwargs):
+    """Print and save on file
+    """
     print(*args, **kwargs)
     with open(txtpath, "a", newline="") as f:
         print(file=f, *args, **kwargs)
@@ -25,6 +27,14 @@ def to_percent(a, b):
 
 
 def summary(dict):
+    """Create summary
+
+    Arguments:
+        dict {} -- dictionary with name(key) and count(value)
+
+    Returns:
+        string -- created report
+    """
     total = sum_values(dict)
     out = []
     for (key, val) in dict.items():
