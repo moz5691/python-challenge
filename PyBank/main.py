@@ -65,4 +65,4 @@ print_twice(
     f'Greatest Decrese in Profits : {greatest_inc_or_dec_profit(changes, date, "dec")}'
 )
 print_twice('====================================')
-print_twice(f"Report geneerate on {dt.isoformat(timespec='minutes')}")
+print_twice(f"Report was generated on {dt.isoformat(timespec='minutes')}")

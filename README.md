@@ -13,7 +13,7 @@ Average change $-2315.12
 Greatest Increase in Profits: ('Feb-2012', '$1926159')
 Greatest Decrese in Profits : ('Sep-2013', '$-2196167')
 ====================================
-Report geneerate on 2020-03-18T19:09
+Report was generated on 2020-03-18T19:09
 ```
 
 ## PyPoll result
@@ -30,5 +30,5 @@ O'Tooley:  3.0% (105630)
 --------------------------
 Winner: Khan
 --------------------------
-Report geneerate on 2020-03-18T19:10
+Report was generated on 2020-03-18T19:10
 ```
